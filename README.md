@@ -23,10 +23,10 @@ and cloud integration — going well beyond typical lab environments.
 ┌─────────────────────────────────────────┐
 │           Proxmox VE Host               │
 │                                         │
-│  ┌──────────┐  ┌──────────┐            │
-│  │Nextcloud │  │   n8n    │            │
-│  │  (LXC)  │  │  (LXC)  │            │
-│  └──────────┘  └──────────┘            │
+│  ┌──────────┐  ┌──────────┐             │
+│  │Nextcloud │  │   n8n    │             │
+│  │  (LXC)   │  │  (LXC)   │             │
+│  └──────────┘  └──────────┘             │
 │                                         │
 │  ┌──────────────────────────┐           │
 │  │   Netbird (Zero Trust)   │           │
@@ -105,7 +105,6 @@ zero-trust-homelab/
 ## 👤 Author
 
 **Mustafa Talha Tuzsuz**  
-Junior Cybersecurity & Cloud Engineer — Dublin, Ireland  
+Cybersecurity & Cloud Engineer - Dublin, Ireland  
 [LinkedIn](https://linkedin.com/in/tuzsuz) • [Email](mailto:tuzsuz@pm.me)
 
-> ✅ Stamp 4 Visa | Full work authorisation | Available immediately
