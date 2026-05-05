@@ -20,21 +20,18 @@ and cloud integration — going well beyond typical lab environments.
 ---
 
 ## 🏗️ Architecture
-┌─────────────────────────────────────────┐
-│           Proxmox VE Host               │
-│                                         │
-│  ┌──────────┐  ┌──────────┐             │
-│  │Nextcloud │  │   n8n    │             │
-│  │  (LXC)   │  │  (LXC)   │             │
-│  └──────────┘  └──────────┘             │
-│                                         │
-│  ┌──────────────────────────┐           │
-│  │   Netbird (Zero Trust)   │           │
-│  │   ZTNA — No VPN needed   │           │
-│  └──────────────────────────┘           │
-└─────────────────────────────────────────┘
-│
-▼
+Proxmox VE Host
+       |
+Nextcloud n8n    
+       |
+
+(LXC)    (LXC)   
+       |
+Netbird (Zero Trust)
+       |
+ZTNA - No VPN needed   
+
+
 AWS Cloud Layer
 (EC2 · S3 · IAM)
 
